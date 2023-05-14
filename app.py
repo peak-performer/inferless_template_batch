@@ -23,3 +23,5 @@ class InferlessPythonModel:
     # perform any cleanup activity here
     def finalize(self):
         self.pipe = None
+
+        
