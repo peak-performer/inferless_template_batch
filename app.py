@@ -19,7 +19,7 @@ class InferlessPythonModel:
         pipeline_output = self.generator(prompt, do_sample=True, min_length=20)
         generated_txt = pipeline_output[0]["generated_text"]
         print("auto build testing", flush=True)
-        return {"generated_text": generated_txt}
+        return {"generated_text": "testing"}
 
     # perform any cleanup activity here
     def finalize(self,args):
