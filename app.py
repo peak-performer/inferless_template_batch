@@ -22,11 +22,6 @@ class InferlessPythonModel:
         return {"generated_text": generated_txt}
 
     # perform any cleanup activity here
-    def finalize(self):
+    def finalize(self,args):
         self.pipe = None
-        
-
-        
-        
-        
         
